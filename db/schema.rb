@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 11) do
+=======
+ActiveRecord::Schema.define(version: 7) do
+>>>>>>> 170ec0da08fa878a4d1c2427d4d6c7316fb98e59
 
   create_table "actors", force: :cascade do |t|
     t.string "first_name"
@@ -32,9 +36,12 @@ ActiveRecord::Schema.define(version: 11) do
   create_table "shows", force: :cascade do |t|
     t.string "name"
     t.integer "network_id"
+<<<<<<< HEAD
     t.text "day"
     t.text "season"
     t.text "genre"
+=======
+>>>>>>> 170ec0da08fa878a4d1c2427d4d6c7316fb98e59
   end
 
 end
